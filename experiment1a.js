@@ -11,5 +11,5 @@ myEmitter.on('exit', (code) => {
     console.log(`Exit event received. Code: ${code}`);
 });
 
-myEmitter.emit('greet', 'Simran');
+myEmitter.emit('greet', 'Shalini');
 myEmitter.emit('exit', 0);

@@ -10,5 +10,5 @@ app.on('message', (msg) => {
     console.log(`Message: ${msg}`);
 });
 
-app.emit('login', 'Simran');
+app.emit('login', 'Shalini');
 app.emit('message', 'Welcome to Node.js!') ;
